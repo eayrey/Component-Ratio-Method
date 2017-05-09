@@ -472,7 +472,7 @@ def scottseq(SP,dbh,bowl_ht):
     
     return b0+b1*(dbh**b2)+b3*(dbh**b4)*(bowl_ht**b5)
 
-#Everything is imperial units
+#Metric units need to be input. Most calculations are imperial though.
 def biomasser(SP,HT,DBH,rot=0):
     #The species included are as follows, all others will be 'Other Hardwoods'
     #Sugar Maple, Yellow Birch, Grey Birch, Paper Birch, Sweet Birch, Red Maple, Striped Maple,
