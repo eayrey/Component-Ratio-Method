@@ -3,7 +3,7 @@ An implementation of the USFS's FIA component ratio method for estimating biomas
 
 The component ratio method is how the US Forest Service's Forest Inventory and Analysis program estimates how much biomass is in a given tree. Ultimately its used for US's carbon monitoring program.
 
-The CRM is a hot mess. It uses local equations to correct biases in national equations for different parts of the tree, then combines them. A thorough walkthrough can be found here:
+The CRM is a convoluted mess. It uses local equations to correct biases in national equations for different parts of the tree, then combines them. A thorough walkthrough can be found here:
 
 https://www.nrs.fs.fed.us/pubs/gtr/gtr_nrs88.pdf
 
